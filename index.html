@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alef test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__content container">
+            <a href="index.html" class="header__logo__link">
+                <img class="header__logo__img" src="img/LOGO.svg" alt="Logo img">
+            </a>
+            <div>
+                <ul class="header__menu">
+                    <li class="header__menu__item">
+                        <a href="#" class="header__menu__item__link">
+                            <img src="img/login.svg" alt="Login img">
+                        </a>
+                    </li>
+                    <li class="header__menu__item">
+                        <a href="#" class="header__menu__item__link">
+                            <img src="img/favorite.svg" alt="Favorite img">
+                        </a>
+                    </li>
+                    <li class="header__menu__item">
+                        <a href="#" class="header__menu__item__link">
+                            <img src="img/cart.svg" alt="Cart img">
+                        </a>
+                    </li>
+                    <li class="header__menu__item_b">
+                        <button class="header__menu__item__link" id="burger">
+                            <img src="img/burger.svg" alt="Burger img">
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header__modal__menu">
+            <div class="header__modal__menu__content">
+                <button class="clear" id="closeMod">&#9587;</button>
+                <ul>
+                    <li><a href="#">постельное белье</a></li>
+                    <li><a href="#">одежда для дома</a></li>
+                    <li><a href="#">одежда для улицы</a></li>
+                    <li><a href="#">выход</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="content container">
+        <div class="main__content">
+            <div class="slider">
+                <div class="slider__content">
+                    <div class="slider__content__item show"></div>
+                    <div class="slider__content__item"></div>
+                    <div class="slider__content__item"></div>
+                    <div class="slider__content__item"></div>
+                    <div class="slider__content__item"></div>
+                </div>
+                <div class="tabcontent__items">
+                    <div class="tabcontent__item tabcontent__item_active">
+                    </div>
+                    <div class=" tabcontent__item ">
+                    </div>
+                    <div class="tabcontent__item ">
+                    </div>
+                    <div class="tabcontent__item ">
+                    </div>
+                    <div class="tabcontent__item ">
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="right__content">
+                <div class="right__content__fororder">
+                    <div id="itemName" class="right__content__fororder__header">Пижама для девочек</div>
+                    <p>Арт. 02765/46
+                        <p/>
+                        <div class="right__content__reviews">
+                            <span>Отзывы</span>
+                            <span>    &#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                            <span>14 отзывов</span>
+                            <a href=""></a>
+                        </div>
+                        <div class="right__content__prise">
+                            <span>800 ₽</span>
+                            <span>1 500 ₽</span>
+                            <a href=""></a>
+                        </div>
+                        <div class="right__content__discounts">
+                            <span>скидка -36%</span>
+                            <span>акция -20%</span>
+                            <a href=""></a>
+                        </div>
+                        <div class="right__content__size">
+                            <select name="select" id="format" class="right__content__size__select">
+                                    <option selected disabled class="sel-opt">Выбрать размер </option>
+                                    <option value="110">110</option>
+                                    <option value="116">116</option>
+                                    <option value="122">122</option>
+                                    <option value="128">128</option>
+                                  </select>
+                            <a href="#">Определить размер</a>
+                        </div>
+                        <div class="right__content__cart__data">
+                            <div class="right__content__cart__counter">
+                                <button id="plus">+</button>
+                                <span id="cart_count">1</span>
+                                <button id="minus">-</button>
+                            </div>
+                            <div class="cart__buttons">
+                                <button class="right__content__cart__add">
+                                    Добавить в корзину
+                                </button>
+                                <button class="right__content__cart__favorites">&#9825;</button>
+
+                            </div>
+
+                            <div class="modal">
+                                <div class="modal__dialog">
+                                    <div class="modal__content">
+                                        <p id="modaltext"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right__content__cart__buy">
+                            <a href="https://www.ozon.ru/">
+                                    Купить в 1 клик
+                                </a>
+                        </div>
+                </div>
+                <hr>
+                <div class="right__content__info">
+                    <ul>
+                        <li><a href="">Описание товара</a></li>
+                        <li><a href="">Доставка и возврат</a></li>
+                        <li><a href="">Способы оплаты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bottom_content container">
+        <a href="#" class="all_styles__link">Посмотреть все стили</a>
+        <div class="cards">
+            <a href="" class="main__card">
+            </a>
+            <div class="cards__items">
+                <div class="cards__item">
+                    <a href="#" class="cards__item_img one"></a>
+                    <div class="cards__item__hover">
+                        <a href="" class="cards__item__hover__frame">
+                            <img width="16" alt="frame-icon" src="img/Frame 16.svg">
+                        </a>
+                        <a href="#" class="cards__item__hover__bag">
+                            <img width="26" src="img/cart_hover.svg" alt="bag-icon">
+                            <span class="bag-text">Узнай, что на мне</span></a>
+                        <a href="#" class="cards__item__hover__favor">
+                            <img width="26" src="img/favorite full.svg" alt="favor-icon">
+                            <span class="favor-text">134</span></a>
+                    </div>
+                </div>
+                <div class="cards__item">
+                    <a href="#" class="cards__item_img two"></a>
+                    <div class="cards__item__hover">
+                        <a href="" class="cards__item__hover__frame">
+                            <img width="16" alt="frame-icon" src="img/Frame 16.svg">
+                        </a>
+                        <a href="#" class="cards__item__hover__bag">
+                            <img width="26" src="img/cart_hover.svg" alt="bag-icon">
+                            <span class="bag-text">Узнай, что на мне</span></a>
+                        <a href="#" class="cards__item__hover__favor">
+                            <img width="26" src="img/favorite full.svg" alt="favor-icon">
+                            <span class="favor-text">505</span></a>
+                    </div>
+                </div>
+                <div class="cards__item">
+                    <a href="#" class="cards__item_img three"></a>
+                    <div class="cards__item__hover">
+                        <a href="" class="cards__item__hover__frame">
+                            <img width="16" alt="frame-icon" src="img/Frame 16.svg">
+                        </a>
+                        <a href="#" class="cards__item__hover__bag">
+                            <img width="26" src="img/cart_hover.svg" alt="bag-icon">
+                            <span class="bag-text">Узнай, что на мне</span></a>
+                        <a href="#" class="cards__item__hover__favor">
+                            <img width="26" src="img/favorite full.svg" alt="favor-icon">
+                            <span class="favor-text">200</span></a>
+                    </div>
+                </div>
+                <div class="cards__item">
+                    <a href="#" class="cards__item_img four"></a>
+                    <div class="cards__item__hover">
+                        <a href="" class="cards__item__hover__frame">
+                            <img width="16" alt="frame-icon" src="img/Frame 16.svg">
+                        </a>
+                        <a href="#" class="cards__item__hover__bag">
+                            <img width="26" src="img/cart_hover.svg" alt="bag-icon">
+                            <span class="bag-text">Узнай, что на мне</span></a>
+                        <a href="#" class="cards__item__hover__favor">
+                            <img width="26" src="img/favorite full.svg" alt="favor-icon">
+                            <span class="favor-text">38</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer container">
+
+        <div class="footer__content">
+            <div class="footer__content__info">
+                <div class="footer__content__info__forbuyers">
+                    <h4>покупателям</h4>
+                    <ul>
+                        <li><a href="">Каталог</a></li>
+                        <li><a href="">Акции</a></li>
+                        <li><a href="">Бренды</a></li>
+                    </ul>
+                </div>
+                <div class="footer__content__info__abotus">
+                    <h4>о нас</h4>
+                    <ul>
+                        <li><a href="">О компании</a></li>
+                        <li><a href="">Новости</a></li>
+                        <li><a href="">Команда</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__content__mailform">
+                <h4>Узнайте первыми о новинках и акциях</h4>
+                <form metod="post">
+                    <input class="footer__content__mail" id="email" type="email" placeholder="Адрес электронной почты">
+                    <button class="clearmail">&#9587;</button>
+                    <input type="submit" class="footer__content__button" value="Подписаться">
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script/index.js "></script>
+</body>
+
+</html>
