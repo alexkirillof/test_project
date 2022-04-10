@@ -74,12 +74,13 @@
 }
 
 .clear {
-    font-size: 9px;
+    font-size: 11px;
     border: none;
     background: transparent;
-    color: #C4C4C4;
+    color: #292929;
     cursor: pointer;
     margin-left: 308px;
+    font-weight: 400;
 }
 
 .header__modal__menu__content ul {

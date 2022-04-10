@@ -66,9 +66,9 @@
         }
     }
     
-    @media (min-width: 427px) and (max-width: 789px) {
+    @media (min-width: 427px) and (max-width: 1024px) {
         .container {
-            max-width: 789px;
+            max-width: 1024px;
         }
         .header {
             height: 67px;
